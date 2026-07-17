@@ -1,62 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chapter 1 ❤️</title>
+
+<title>Chapter 1 - How We Met ❤️</title>
 
 <style>
 
-body{
+*{
 margin:0;
-padding:40px;
-background:#fff8f5;
+padding:0;
+box-sizing:border-box;
 font-family:Georgia,serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#fff9f6;
 color:#333;
 line-height:1.8;
 }
 
-.container{
-max-width:800px;
-margin:auto;
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#fff6fb,#ffe4ef);
+text-align:center;
+padding:30px;
 }
 
-h1{
-text-align:center;
-font-size:48px;
+.hero h1{
+font-size:60px;
+color:#ff2d75;
+margin-bottom:20px;
+animation:fade 2s;
+}
+
+.hero p{
+font-size:28px;
+color:#666;
+font-style:italic;
+animation:fade 3s;
+}
+
+.scroll{
+margin-top:70px;
+font-size:20px;
+animation:bounce 2s infinite;
 color:#ff2d75;
 }
 
-h2{
-text-align:center;
-margin-bottom:40px;
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
 }
 
-p{
-font-size:22px;
-margin-bottom:20px;
+@keyframes bounce{
+0%{transform:translateY(0);}
+50%{transform:translateY(10px);}
+100%{transform:translateY(0);}
 }
 
-img{
+.section{
+max-width:900px;
+margin:auto;
+padding:80px 30px;
+}
+
+.section img{
 width:100%;
-border-radius:20px;
-margin:30px 0;
+border-radius:25px;
+margin-bottom:40px;
+box-shadow:0 15px 35px rgba(0,0,0,.2);
 }
 
-button{
+.section h2{
+font-size:45px;
+text-align:center;
+margin-bottom:30px;
+color:#ff2d75;
+}
+
+.section p{
+font-size:24px;
+margin-bottom:30px;
+}
+
+.quote{
+text-align:center;
+font-size:32px;
+font-style:italic;
+color:#ff2d75;
+margin:70px 0;
+}
+
+.button{
 display:block;
-margin:40px auto;
-padding:18px 40px;
+width:300px;
+margin:70px auto;
+text-align:center;
+text-decoration:none;
 background:#ff2d75;
 color:white;
-border:none;
+padding:20px;
 border-radius:50px;
-font-size:22px;
-cursor:pointer;
+font-size:24px;
+transition:.3s;
 }
 
-button:hover{
+.button:hover{
 background:#ff0f64;
+transform:scale(1.05);
 }
 
 </style>
@@ -65,31 +134,59 @@ background:#ff0f64;
 
 <body>
 
-<div class="container">
+<div class="hero">
 
-<h1>Chapter 1 ❤️</h1>
+<h1>Chapter One ❤️</h1>
 
-<h2>How We Met</h2>
+<p>How We Met</p>
+
+<div class="scroll">
+⬇ Scroll Down ⬇
+</div>
+
+</div>
+
+<div class="section">
+
+<img src="cover.jpg">
+
+<h2>It All Started...</h2>
 
 <p>
 It all started in Grade 10.
 </p>
 
 <p>
-The first time I saw you, you were reading a book. I still remember that moment so clearly. I never imagined that one day the girl with the book would become the love of my life.
+The first time I saw you,
+you were reading a book.
 </p>
 
 <p>
-As the years went by, we got closer. Every conversation, every laugh and every memory slowly became another page in our story.
+At that moment I didn't know your name.
+I didn't know your story.
+I didn't know that one day
+you would become the most important person in my life.
 </p>
 
 <p>
-Looking back now, I know that meeting you was the best thing that has ever happened to me.
+Looking back now...
+I realise that was the beginning of the greatest story I will ever live.
 </p>
 
-<button onclick="history.back()">Back ❤️</button>
+<div class="quote">
+
+"The girl with the book became my whole world."
+
+</div>
+
+<a class="button" href="contents.html">
+
+⬅ Back To Contents
+
+</a>
 
 </div>
 
 </body>
+
 </html>
