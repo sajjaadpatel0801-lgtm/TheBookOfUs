@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
@@ -18,20 +17,25 @@ font-family:Georgia,serif;
 }
 
 body{
-height:100vh;
+min-height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
 background:linear-gradient(180deg,#0d0d1f,#1b1b3a,#000);
-overflow:hidden;
+overflow-y:auto;
 color:white;
 text-align:center;
+padding:40px 20px;
+position:relative;
 }
 
 .container{
 max-width:900px;
+width:100%;
 padding:40px;
 animation:fade 3s ease;
+margin:auto;
+z-index:2;
 }
 
 h1{
@@ -51,6 +55,7 @@ margin-top:50px;
 font-size:34px;
 color:#ff7eb6;
 font-style:italic;
+line-height:1.8;
 }
 
 .button{
@@ -66,16 +71,18 @@ transition:.3s;
 }
 
 .button:hover{
+background:#ff0f64;
 transform:scale(1.05);
 }
 
 .star{
-position:absolute;
+position:fixed;
 width:3px;
 height:3px;
 background:white;
 border-radius:50%;
 animation:twinkle 2s infinite alternate;
+z-index:1;
 }
 
 @keyframes fade{
@@ -109,60 +116,85 @@ opacity:1;
 <div class="star" style="top:70%;left:25%;"></div>
 <div class="star" style="top:50%;left:60%;"></div>
 <div class="star" style="top:85%;left:90%;"></div>
+<div class="star" style="top:20%;left:45%;"></div>
+<div class="star" style="top:60%;left:75%;"></div>
+<div class="star" style="top:90%;left:10%;"></div>
 
 <div class="container">
 
 <h1>❤️ The End ❤️</h1>
 
 <p>
-
 Every page in this book tells a story.
+</p>
 
+<p>
 A story of two people who met at just the right time.
-
-A story filled with laughter, memories, growth, and love.
-
 </p>
 
 <p>
+A story filled with laughter, memories, growth and love.
+</p>
 
+<p>
 No matter what happens tomorrow...
-
-No matter where life takes us...
-
-No matter how many years pass...
-
-If I had the chance to choose again...
-
-I would still choose you.
-
-Every single time.
-
 </p>
 
 <p>
+No matter where life takes us...
+</p>
 
+<p>
+No matter how many years pass...
+</p>
+
+<p>
+If I had the chance to choose again...
+</p>
+
+<p>
+I would still choose you.
+</p>
+
+<p>
+Every single time.
+</p>
+
+<p>
 Thank you for giving us another chance.
+</p>
 
+<p>
 Thank you for believing in us.
+</p>
 
-Thank you for being my best friend...
+<p>
+Thank you for being my best friend.
+</p>
 
-My safe place...
+<p>
+My safe place.
+</p>
 
-My future...
+<p>
+My future.
+</p>
 
+<p>
 And the love of my life.
-
 </p>
 
 <div class="signature">
 
 I Love You To Infinity And Beyond ❤️
 
+<br><br>
+
 Forever Yours,
 
-Your Future Husband
+<br>
+
+Your Future Husband ❤️
 
 </div>
 
@@ -175,5 +207,4 @@ Your Future Husband
 </div>
 
 </body>
-
 </html>
