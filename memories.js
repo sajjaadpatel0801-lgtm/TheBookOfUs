@@ -217,10 +217,11 @@ const memories = [
 
 ];
 
-let current=-1;
+let current = -1;
 
-const memory=document.getElementById("memory");
-const note=document.getElementById("note");
+const memory = document.getElementById("memory");
+const note = document.getElementById("note");
+const jar = document.querySelector(".jar");
 
 function nextMemory(){
 
@@ -228,22 +229,35 @@ let newIndex;
 
 do{
 
-newIndex=Math.floor(Math.random()*memories.length);
+newIndex = Math.floor(Math.random() * memories.length);
 
-}while(newIndex===current);
+}while(newIndex === current);
 
-current=newIndex;
+current = newIndex;
 
+// Hide the note
 note.classList.remove("show");
+
+// Make the jar bounce
+jar.style.transform = "translateY(-8px)";
 
 setTimeout(()=>{
 
-memory.innerHTML=memories[current];
+jar.style.transform = "translateY(0)";
 
+memory.innerHTML = memories[current];
+
+// Show the note coming out of the jar
 note.classList.add("show");
 
-},300);
+},350);
 
 }
 
+// Show the first memory when the page loads
+window.onload = function(){
+
 nextMemory();
+
+};
+
