@@ -57,7 +57,46 @@ const memories = [
 
 "The day you gave us a second chance became one of the happiest days of my life.",
 
-"Every memory we've made together has become one of my favourite stories."
+"Every memory we've made together has become one of my favourite stories.",
+  "I remember checking my phone hoping to see a message from you.",
+
+"Every countdown until I could see you again was worth it.",
+
+"I still remember how happy I felt after our first date.",
+
+"The little moments with you have always meant the most to me.",
+
+"I loved listening to your stories, no matter how long they were.",
+
+"I remember smiling for hours after spending time with you.",
+
+"Seeing you happy has always made me happy too.",
+
+"I'll always remember how excited I was planning our dates.",
+
+"I never wanted our time together to end.",
+
+"Even sitting quietly together felt perfect.",
+
+"I remember how proud I felt to have you by my side.",
+
+"I still think about all the little moments that made us smile.",
+
+"I loved every goodbye because it meant there would be another hello.",
+
+"Our memories remind me why you're worth waiting for.",
+
+"I remember dreaming about our future even before we spoke about it.",
+
+"I've replayed some of our happiest moments in my mind more times than I can count.",
+
+"I remember laughing with you until my cheeks hurt.",
+
+"The little adventures we had together will always stay with me.",
+
+"I'll always treasure every photo we've taken together.",
+
+"Every memory with you reminds me how blessed I am."
 
 ];
 
