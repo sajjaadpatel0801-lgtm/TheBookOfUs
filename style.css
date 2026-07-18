@@ -82,3 +82,101 @@ padding:16px 36px;
 }
 
 }
+/* Jar Shake */
+
+.jar.shake{
+
+animation:shake .5s ease;
+
+}
+
+@keyframes shake{
+
+0%{transform:rotate(0deg);}
+20%{transform:rotate(-4deg);}
+40%{transform:rotate(4deg);}
+60%{transform:rotate(-3deg);}
+80%{transform:rotate(3deg);}
+100%{transform:rotate(0deg);}
+
+}
+
+/* Note Unfold */
+
+.note{
+
+transform-origin:bottom center;
+
+}
+
+/* Floating Hearts */
+
+.heart{
+
+position:absolute;
+
+font-size:28px;
+
+pointer-events:none;
+
+animation:floatHeart 2.5s linear forwards;
+
+z-index:20;
+
+}
+
+@keyframes floatHeart{
+
+0%{
+
+opacity:1;
+
+transform:translateY(0) scale(.6);
+
+}
+
+100%{
+
+opacity:0;
+
+transform:translateY(-220px) scale(1.5);
+
+}
+
+}
+
+/* Sparkles */
+
+.sparkle{
+
+position:absolute;
+
+font-size:20px;
+
+pointer-events:none;
+
+animation:sparkle 1.5s ease forwards;
+
+z-index:25;
+
+}
+
+@keyframes sparkle{
+
+0%{
+
+opacity:1;
+
+transform:scale(.2);
+
+}
+
+100%{
+
+opacity:0;
+
+transform:scale(1.8);
+
+}
+
+}
