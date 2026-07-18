@@ -18,7 +18,7 @@ const memories = [
 
 "Every good morning and every good night message reminded me how lucky I am.",
 
-"Even though we're long distance, you've always made me feel close to you."
+"Even though we're long distance, you've always made me feel close to you.",
   "The first time we spoke while you were reading your book. You had no idea that one conversation would change my whole life.",
 
 "I remember thinking how beautiful you looked the first time we really spoke.",
