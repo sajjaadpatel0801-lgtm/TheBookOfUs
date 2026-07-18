@@ -217,10 +217,10 @@ const memories = [
 
 ];
 
-let current = -1;
+let current=-1;
 
-const memory = document.getElementById("memory");
-const note = document.getElementById("note");
+const memory=document.getElementById("memory");
+const note=document.getElementById("note");
 
 function nextMemory(){
 
@@ -228,17 +228,17 @@ let newIndex;
 
 do{
 
-newIndex = Math.floor(Math.random() * memories.length);
+newIndex=Math.floor(Math.random()*memories.length);
 
-}while(newIndex === current);
+}while(newIndex===current);
 
-current = newIndex;
+current=newIndex;
 
 note.classList.remove("show");
 
 setTimeout(()=>{
 
-memory.innerHTML = memories[current];
+memory.innerHTML=memories[current];
 
 note.classList.add("show");
 
