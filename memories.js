@@ -216,12 +216,55 @@ const memories = [
 "And one day, when we're old and reading through these memories together, I'll still look at you and think... I would choose you all over again. I love you to infinity and beyond. ❤️"
 
 ];
+let current=-1;
 
-let current = -1;
+const memory=document.getElementById("memory");
+const note=document.getElementById("note");
+const jar=document.querySelector(".jar");
 
-const memory = document.getElementById("memory");
-const note = document.getElementById("note");
-const jar = document.querySelector(".jar");
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=(window.innerWidth/2-20+(Math.random()*120-60))+"px";
+
+heart.style.top=(jar.getBoundingClientRect().top+120)+"px";
+
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+
+heart.remove();
+
+},2500);
+
+}
+
+function createSparkle(){
+
+const sparkle=document.createElement("div");
+
+sparkle.className="sparkle";
+
+sparkle.innerHTML="✨";
+
+sparkle.style.left=(window.innerWidth/2-20+(Math.random()*140-70))+"px";
+
+sparkle.style.top=(jar.getBoundingClientRect().top+100)+"px";
+
+document.body.appendChild(sparkle);
+
+setTimeout(()=>{
+
+sparkle.remove();
+
+},1500);
+
+}
 
 function nextMemory(){
 
@@ -229,28 +272,46 @@ let newIndex;
 
 do{
 
-newIndex = Math.floor(Math.random() * memories.length);
+newIndex=Math.floor(Math.random()*memories.length);
 
-}while(newIndex === current);
+}while(newIndex===current);
 
-current = newIndex;
+current=newIndex;
 
-// Hide the note
 note.classList.remove("show");
 
-// Make the jar bounce
-jar.style.transform = "translateY(-8px)";
+jar.classList.add("shake");
 
 setTimeout(()=>{
 
-jar.style.transform = "translateY(0)";
+jar.classList.remove("shake");
 
-memory.innerHTML = memories[current];
+memory.innerHTML=memories[current];
 
-// Show the note coming out of the jar
 note.classList.add("show");
 
-},350);
+for(let i=0;i<6;i++){
+
+setTimeout(createHeart,i*120);
+
+}
+
+for(let i=0;i<10;i++){
+
+setTimeout(createSparkle,i*80);
+
+}
+
+},500);
+
+}
+
+window.onload=function(){
+
+nextMemory();
+
+};
+
 
 }
 
