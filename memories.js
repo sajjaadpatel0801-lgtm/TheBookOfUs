@@ -174,7 +174,46 @@ const memories = [
 
 "I dream about looking through old photo albums and remembering every chapter of our story.",
 
-"My favourite future memory will always be spending the rest of my life with you."
+"My favourite future memory will always be spending the rest of my life with you.",
+  "I'll always choose you, no matter what life brings us.",
+
+"I'll never stop falling in love with you.",
+
+"My favourite place will always be wherever you are.",
+
+"I'll never stop making dua for your happiness.",
+
+"I'll always be proud to call you my person.",
+
+"I'll always believe that Allah brought us together for a reason.",
+
+"I'll never stop thanking Allah for bringing you into my life.",
+
+"I'll always protect the love we've built together.",
+
+"I'll never stop chasing our dreams together.",
+
+"I'll always look at you the way I do today.",
+
+"I hope one day we can read this website together and laugh about all these memories.",
+
+"I hope one day our children will know just how much I loved their mother.",
+
+"I hope we never stop making new memories together.",
+
+"I'll always remember that love isn't measured by distance, but by commitment.",
+
+"I'll always remember that every goodbye brought us one step closer to forever.",
+
+"I'll always carry these memories in my heart.",
+
+"No matter how many memories we make, I'll always look forward to the next one.",
+
+"My favourite chapter of my life will always be the one that has you in it.",
+
+"The best memory I have is finding you. The best memory I'm waiting for is marrying you.",
+
+"And one day, when we're old and reading through these memories together, I'll still look at you and think... I would choose you all over again. I love you to infinity and beyond. ❤️"
 
 ];
 
