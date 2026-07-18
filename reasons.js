@@ -48,7 +48,7 @@ const reasons = [
 "I love you because even silence with you feels peaceful.",
 "I love you because you're my favourite notification.",
 "I love you because you're the first person I want to tell everything to.",
-"I love you because every "I love you" from you still gives me butterflies.",
+"I love you because every time you say I love you I still get butterflies.",
 "I love you because loving you is the easiest thing I've ever done.",
 "I love you because no matter what happens, I will always choose you.",
 
