@@ -109,7 +109,7 @@ const reason = document.getElementById("reason");
 
 function showReason(){
 
-counter.innerHTML = `Reason ${current + 1} of ${reasons.length} ❤️`;
+counter.innerHTML = "❤️ Another Reason I Love You ❤️";
 
 reason.classList.add("fade");
 
