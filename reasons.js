@@ -89,7 +89,16 @@ const reasons = [
 "I love you because I can't wait to visit Liverpool with you.",
 "I love you because you make me believe in forever.",
 "I love you because every day I fall in love with you again.",
-"I love you because if I had to choose again I would still choose you."
+"I love you because if I had to choose again I would still choose you.","I love you because you are the answer to so many of my duas.",
+"I love you because every day with you is a gift.",
+"I love you because I can't wait to wake up beside you every morning.",
+"I love you because I know our best memories are still ahead of us.",
+"I love you because you make my world brighter just by being in it.",
+"I love you because you are my peace after every difficult day.",
+"I love you because I will always stand by your side.",
+"I love you because I promise to choose you every single day.",
+"I love you because forever with you still doesn't feel long enough.",
+"I love you because you are the greatest blessing Allah has ever placed in my life. ❤️"
 
 
 let current = 0;
