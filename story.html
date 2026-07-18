@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chapter 1 - How We Met ❤️</title>
+<title>Chapter One ❤️</title>
 
 <style>
 
@@ -15,10 +14,6 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:Georgia,serif;
-}
-
-html{
-scroll-behavior:smooth;
 }
 
 body{
@@ -33,7 +28,7 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-background:linear-gradient(135deg,#fff6fb,#ffe4ef);
+background:linear-gradient(135deg,#ffeef5,#fff9f6);
 text-align:center;
 padding:30px;
 }
@@ -42,38 +37,12 @@ padding:30px;
 font-size:60px;
 color:#ff2d75;
 margin-bottom:20px;
-animation:fade 2s;
 }
 
 .hero p{
 font-size:28px;
-color:#666;
 font-style:italic;
-animation:fade 3s;
-}
-
-.scroll{
-margin-top:70px;
-font-size:20px;
-animation:bounce 2s infinite;
-color:#ff2d75;
-}
-
-@keyframes fade{
-from{
-opacity:0;
-transform:translateY(30px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-
-@keyframes bounce{
-0%{transform:translateY(0);}
-50%{transform:translateY(10px);}
-100%{transform:translateY(0);}
+color:#666;
 }
 
 .section{
@@ -82,48 +51,52 @@ margin:auto;
 padding:80px 30px;
 }
 
-.section img{
+.memory{
 width:100%;
 border-radius:25px;
 margin-bottom:40px;
 box-shadow:0 15px 35px rgba(0,0,0,.2);
 }
 
-.section h2{
-font-size:45px;
+h2{
 text-align:center;
-margin-bottom:30px;
+font-size:42px;
 color:#ff2d75;
+margin-bottom:30px;
 }
 
-.section p{
+p{
 font-size:24px;
 margin-bottom:30px;
 }
 
 .quote{
 text-align:center;
-font-size:32px;
+font-size:30px;
 font-style:italic;
 color:#ff2d75;
-margin:70px 0;
+margin:60px 0;
 }
 
-.button{
-display:block;
-width:300px;
-margin:70px auto;
-text-align:center;
-text-decoration:none;
+.buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:60px;
+}
+
+.btn{
 background:#ff2d75;
 color:white;
-padding:20px;
+padding:18px 35px;
 border-radius:50px;
-font-size:24px;
+text-decoration:none;
+font-size:22px;
 transition:.3s;
 }
 
-.button:hover{
+.btn:hover{
 background:#ff0f64;
 transform:scale(1.05);
 }
@@ -138,17 +111,13 @@ transform:scale(1.05);
 
 <h1>Chapter One ❤️</h1>
 
-<p>How We Met</p>
-
-<div class="scroll">
-⬇ Scroll Down ⬇
-</div>
+<p>Where It All Began...</p>
 
 </div>
 
 <div class="section">
 
-<img src="cover.jpg">
+<img src="cover.jpg" class="memory">
 
 <h2>It All Started...</h2>
 
@@ -157,35 +126,116 @@ It all started in Grade 10.
 </p>
 
 <p>
-The first time I saw you,
-you were reading a book.
+I already knew your name.
 </p>
 
 <p>
-At that moment I didn't know your name.
-I didn't know your story.
-I didn't know that one day
-you would become the most important person in my life.
+And if I'm being honest...
+</p>
+
+<p>
+I had liked you for a long time.
+</p>
+
+<p>
+Then one day...
+</p>
+
+<p>
+I saw you sitting there reading your book.
+</p>
+
+<p>
+That wasn't the first time I had seen you.
+</p>
+
+<p>
+But it was the first time we really spoke.
+</p>
+
+<p>
+I remember feeling nervous.
+</p>
+
+<p>
+I kept wondering what I should say.
+</p>
+
+<p>
+But the moment we started talking...
+</p>
+
+<p>
+Everything just felt so natural.
+</p>
+
+<p>
+I didn't know that one simple conversation would change my life forever.
+</p>
+
+<p>
+I didn't know that the girl I had admired for so long would become my best friend...
+</p>
+
+<p>
+The love of my life...
+</p>
+
+<p>
+And one day...
+</p>
+
+<p>
+My future wife.
 </p>
 
 <p>
 Looking back now...
-I realise that was the beginning of the greatest story I will ever live.
+</p>
+
+<p>
+I realise that wasn't just the first conversation we ever had.
+</p>
+
+<p>
+It was the first page of the greatest love story I will ever get to live.
+</p>
+
+<p>
+And if I could go back to that very moment...
+</p>
+
+<p>
+I would still walk over to you.
+</p>
+
+<p>
+I would still start that conversation.
+</p>
+
+<p>
+And I would still fall in love with you all over again. ❤️
 </p>
 
 <div class="quote">
 
-"The girl with the book became my whole world."
+"Every beautiful love story begins with one simple conversation."
 
 </div>
 
-<a class="button" href="chapter2.html">
-Next Chapter ➜
+<div class="buttons">
 
+<a href="contents.html" class="btn">
+⬅ Contents
+</a>
+
+<a href="chapter2.html" class="btn">
+Next Chapter ➜
 </a>
 
 </div>
 
-</body>
+</div>
 
+</body>
 </html>
