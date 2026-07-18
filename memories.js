@@ -96,7 +96,46 @@ const memories = [
 
 "I'll always treasure every photo we've taken together.",
 
-"Every memory with you reminds me how blessed I am."
+"Every memory with you reminds me how blessed I am.",
+  "I remember how excited I felt every time we made plans together.",
+
+"I'll never forget waiting to see you again because every second was worth it.",
+
+"I always felt lucky whenever I was with you.",
+
+"You turned ordinary days into unforgettable memories.",
+
+"I remember wishing time would slow down whenever we were together.",
+
+"The happiest moments of my life always seem to have you in them.",
+
+"I remember looking at you and thinking how lucky I was.",
+
+"I'll always remember the butterflies I got before seeing you.",
+
+"I loved every little conversation we had, no matter how random.",
+
+"Every laugh we shared became another reason I fell in love with you.",
+
+"I remember how much I missed you every time we had to say goodbye.",
+
+"Long distance has taught me that love is stronger than distance.",
+
+"Every call with you became the best part of my day.",
+
+"I'll always remember falling asleep with a smile after talking to you.",
+
+"Every voice note from you felt like a hug.",
+
+"I remember waiting for your messages because they always made my day.",
+
+"I never stopped believing that our story was worth fighting for.",
+
+"Every difficult day became easier because I knew I had you.",
+
+"I'll always be thankful that our paths crossed.",
+
+"I wouldn't change our story for anything in the world."
 
 ];
 
