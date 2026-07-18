@@ -10,114 +10,274 @@
 
 <style>
 
-body{
-background:linear-gradient(135deg,#fff7fb,#ffeef5);
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-padding:20px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 font-family:Georgia,serif;
 }
 
+body{
+
+background:linear-gradient(135deg,#fff7fb,#ffeef5);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+min-height:100vh;
+
+padding:30px;
+
+}
+
 .container{
-max-width:850px;
+
 width:100%;
+max-width:900px;
+
 background:white;
-padding:40px;
+
 border-radius:30px;
-box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+padding:40px;
+
 text-align:center;
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
 }
 
 h1{
+
+font-size:52px;
+
 color:#ff2d75;
-font-size:50px;
+
 margin-bottom:10px;
+
 }
 
 .subtitle{
+
 font-size:22px;
+
 color:#666;
+
 margin-bottom:40px;
+
 }
 
-.jar-container{
+.jar-area{
+
+position:relative;
+
+width:320px;
+
+height:500px;
+
+margin:auto;
+
 display:flex;
-flex-direction:column;
-align-items:center;
-margin:40px 0;
+
+justify-content:center;
+
+align-items:flex-end;
+
 }
 
 .jar{
-font-size:120px;
+
+width:240px;
+
+position:relative;
+
+z-index:5;
+
 animation:float 3s ease-in-out infinite;
-z-index:2;
+
+}
+
+.jar img{
+
+width:100%;
+
+display:block;
+
 }
 
 @keyframes float{
+
 0%{transform:translateY(0);}
-50%{transform:translateY(-10px);}
+
+50%{transform:translateY(-8px);}
+
 100%{transform:translateY(0);}
+
 }
 
 .note{
-width:320px;
-min-height:220px;
-background:#fffdf7;
-border-radius:20px;
-padding:30px;
-margin-top:-40px;
-box-shadow:0 10px 25px rgba(0,0,0,.2);
 
-transform:translateY(-140px) scale(.7);
+position:absolute;
+
+bottom:110px;
+
+left:50%;
+
+transform:translateX(-50%) translateY(120px) scale(.6);
+
+width:210px;
+
+min-height:170px;
+
+background:#fffdf8;
+
+border-radius:18px;
+
+padding:22px;
+
+box-shadow:0 12px 25px rgba(0,0,0,.2);
+
 opacity:0;
 
-transition:.8s ease;
+transition:all .8s ease;
 
-position:relative;
+z-index:2;
+
 }
 
 .note.show{
-transform:translateY(0) scale(1);
+
 opacity:1;
+
+transform:translateX(-50%) translateY(-140px) scale(1);
+
 }
 
 .paper-top{
+
 width:90px;
+
 height:18px;
-background:#ffe0a8;
-position:absolute;
-top:-9px;
-left:50%;
-transform:translateX(-50%) rotate(-3deg);
+
+background:#ffe2ae;
+
 border-radius:5px;
+
+position:absolute;
+
+top:-9px;
+
+left:50%;
+
+transform:translateX(-50%) rotate(-3deg);
+
 }
 
 #memory{
-font-size:26px;
-line-height:1.8;
-text-align:center;
-color:#333;
-}
 
-button,a{
-margin-top:30px;
-padding:16px 35px;
-border:none;
-border-radius:50px;
-background:#ff2d75;
-color:white;
 font-size:20px;
-cursor:pointer;
-text-decoration:none;
-display:inline-block;
-transition:.3s;
+
+line-height:1.8;
+
+color:#333;
+
+text-align:center;
+
 }
 
-button:hover,
-a:hover{
+button{
+
+margin-top:35px;
+
+padding:16px 40px;
+
+border:none;
+
+border-radius:50px;
+
+background:#ff2d75;
+
+color:white;
+
+font-size:20px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
 transform:scale(1.05);
+
+}
+
+.next{
+
+display:inline-block;
+
+margin-top:25px;
+
+padding:16px 35px;
+
+background:#ff2d75;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:50px;
+
+font-size:20px;
+
+transition:.3s;
+
+}
+
+.next:hover{
+
+transform:scale(1.05);
+
+}
+
+@media(max-width:700px){
+
+.jar-area{
+
+width:280px;
+
+height:430px;
+
+}
+
+.jar{
+
+width:200px;
+
+}
+
+.note{
+
+width:180px;
+
+font-size:18px;
+
+}
+
+h1{
+
+font-size:42px;
+
+}
+
+.subtitle{
+
+font-size:18px;
+
+}
+
 }
 
 </style>
@@ -131,12 +291,12 @@ transform:scale(1.05);
 <h1>Memory Jar ❤️</h1>
 
 <p class="subtitle">
-Every click pulls another memory from the jar.
+
+Every click pulls another beautiful memory from our jar.
+
 </p>
 
-<div class="jar-container">
-
-<div class="jar">🫙</div>
+<div class="jar-area">
 
 <div id="note" class="note">
 
@@ -146,16 +306,26 @@ Every click pulls another memory from the jar.
 
 </div>
 
+<div class="jar">
+
+<img src="jar.png" alt="Memory Jar">
+
+</div>
+
 </div>
 
 <button onclick="nextMemory()">
+
 ❤️ Pick a Memory
+
 </button>
 
 <br>
 
-<a href="ending.html">
+<a class="next" href="ending.html">
+
 Final Chapter ➜
+
 </a>
 
 </div>
