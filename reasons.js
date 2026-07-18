@@ -125,13 +125,15 @@ reason.classList.remove("fade");
 
 function nextReason(){
 
-current++;
+let newIndex;
 
-if(current >= reasons.length){
+do{
 
-current = 0;
+newIndex = Math.floor(Math.random() * reasons.length);
 
-}
+}while(newIndex === current);
+
+current = newIndex;
 
 showReason();
 
