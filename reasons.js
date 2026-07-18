@@ -1,5 +1,4 @@
 const reasons = [
-const reasons = [
 
 "I love you because you gave us a second chance.",
 "I love you because you never gave up on us.",
