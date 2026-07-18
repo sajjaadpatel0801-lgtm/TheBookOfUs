@@ -135,7 +135,46 @@ const memories = [
 
 "I'll always be thankful that our paths crossed.",
 
-"I wouldn't change our story for anything in the world."
+"I wouldn't change our story for anything in the world.",
+  "I dream about the day I finally call you my wife.",
+
+"I can already picture us saying our nikah vows together.",
+
+"I dream about walking into our first home together.",
+
+"I imagine us decorating our home with memories we've made.",
+
+"I can't wait for our little coffee corner every morning.",
+
+"I dream about cooking supper together after a long day.",
+
+"I can't wait for our movie nights on the couch.",
+
+"I dream about hearing your laugh fill our home.",
+
+"I can't wait to make Umrah with you by my side.",
+
+"I dream about standing together in Makkah making dua.",
+
+"I can't wait to visit Madinah with you and cherish every moment.",
+
+"I dream about taking our children on their first holiday.",
+
+"I can't wait to watch our two children grow up knowing they are loved.",
+
+"I dream about celebrating our fifth anniversary together.",
+
+"I dream about celebrating our tenth anniversary together.",
+
+"I dream about celebrating our fiftieth anniversary together.",
+
+"I dream about growing old with you while watching the sunset.",
+
+"I dream about holding your hand even when our hair has turned grey.",
+
+"I dream about looking through old photo albums and remembering every chapter of our story.",
+
+"My favourite future memory will always be spending the rest of my life with you."
 
 ];
 
